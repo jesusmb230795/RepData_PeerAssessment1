@@ -1,18 +1,19 @@
 ---
-title: "Reproducible Research Project 1"
+title: "Reproducible Research: Peer Assessment 1"
 author: "Enrique Miranda"
 date: "01/09/2020"
-output:
-  md_document:
-    variant: markdown_github
+output: 
+  html_document:
+    keep_md: true
 ---
 
-## Loading and preprocessing the data
-
+## Loading libraries
 ```{r}
 library(data.table)
 library(ggplot2)
 ```
+
+## Loading and preprocessing the data
 
 ## Reading csv Data into Data.Table. 
 ```{r}
